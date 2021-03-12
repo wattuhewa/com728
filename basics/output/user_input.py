@@ -1,7 +1,9 @@
 # Ask user to enter their name
-print("What is your name human?")
-name = input()
-print("It is nice to meet you human", name)
-print("It is nice to meet you "+ name)
 
-print("Nice to meet you {}.".format(name))
+print("What is your name ?")
+
+myname = input()
+
+print("It is nice to meet you ", myname)
+
+print("Nice to meet you " + myname + ".")
