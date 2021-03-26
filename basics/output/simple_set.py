@@ -1,9 +1,9 @@
 def observed():
-    observations = {"Flying car", "Sky Scraper", "Laser", "Dome"}
+    observations = {"it may rain", "cold", "sunny spell"}
     return observations
 
 def run():
-    print(observed())
+    print("What is the weather :", observed())
 
 run()
 
